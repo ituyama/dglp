@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+
+
+.btn-contact {
+    color: rgb(255, 255, 255);
+    background-color: #329ACD;
+
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.jumbotron {
+    background: linear-gradient(97.03deg, #00ABFF -0.59%, #1BBEAA 109.35%);
+    border-radius: 0px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+
+    color: white;
+    position: relative;
+
+}
+
+* {
+    font-family: "Noto Sans JP",
+        sans-serif;
+    z-index: 10;
+}
+
+
+
+.loop {
+
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.loop__box {
+    display: flex;
+    width: 100vw;
+}
+
+.loop__box img {
+    min-width: 100vw;
+}
+
+.loop__box img:first-child {
+    animation: loop 20s -10s linear infinite;
+}
+
+.loop__box img:last-child {
+    animation: loop2 20s linear infinite;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+@keyframes loop {
+    0% {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes loop2 {
+    0% {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-200%);
+    }
+}
+
+.title {
+    font-weight: 800;
+}
+
+.btn-contact-2 {
+    background-color: #2E64B4;
+    padding: 10px 50px;
+    color: white;
+    border-radius: 2px;
+}
+
+.center {
+    text-align: center;
+    padding: 0px auto;
+    margin: 0px auto;
+}
+
+.main-title {
+    font-size: 20px
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #2E64B4;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+@media (min-width: 576px) {
+
+
+
+    .jumbotron {
+        padding: 100px 100px;
+        padding-bottom: 0px;
+    }
+
+    .navbar {
+        padding: 15px 180px;
+    }
+
+    .mainimage {
+        max-width: 400px;
+    }
+
+}
+
+.badge-tops {
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+footer {
+    background-color: #133067;
+    margin-top: 100px;
+    width: 100vw;
+    height: 100px;
+}
+
+.com {
+    color: white;
+    font-weight: 800;
+}
+
+.card {
+    border: none;
+
+    padding: 10px;
+}
+
+.cits {
+    border-radius: 10px;
+}
+
+.left {
+    text-align: left;
+}
+
+.mains {
+    background-color: rgb(112, 165, 211);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.margin {
+    margin-top: 20px;
+}
+
+.merit {
+    margin-top: 30px;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.dis {
+    padding: 30px;
+    font-weight: 400;
+}
+
+.part1 {
+    z-index: 0;
+    position: absolute;
+    top: 1000px;
+    left: 0px;
+}
+
+.part2 {
+    z-index: 0;
+    position: absolute;
+    top: 1000px;
+    right: 0px;
+}
+
+.humans {
+    bottom: 0;
+    position: absolute;
+}
+
+.margin-bottom {
+    margin-bottom: 60px;
+}
+
+.pitpaimg {
+    border-radius: 10px;
+}
